@@ -4,10 +4,12 @@
 
 # Awesome Terminal Emulators & Text Interfaces (TUI) ⚡
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF88Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces?style=social)](https://github.com/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces/pulls)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > A curated directory of premier **GPU-accelerated terminal emulators**, **cross-platform multiplexers**, **Terminal User Interface (TUI) applications**, and **command-line developer tools**. Explore hardware-rendered shells, Sixel/Kitty graphics, and cloud-synced terminal infrastructure.
 
@@ -20,6 +22,8 @@
   - [Terminal Emulators & Multiplexers](#-terminal-emulators--multiplexers)
   - [Interactive TUI Applications & Frameworks](#-interactive-tui-applications--frameworks)
 - [How to Contribute](#-how-to-contribute)
+- [Support](#-support)
+- [Star History](#-star-history)
 - [Disclaimer](#-disclaimer)
 
 ---
@@ -104,6 +108,24 @@ We welcome contributions from the developer community! Follow these steps to sub
    - For Open-Source: Include the official GitHub repository link and shield badge (`style=social&color=white`) linking to `/stargazers`.
 4. 🧪 **Validate links and formatting**: Ensure all markdown links resolve correctly.
 5. 🚀 **Submit a Pull Request** with a concise description of the added tool and its primary use case.
+
+---
+
+## 💖 Support
+
+Thank you for visiting and supporting the **Awesome Terminal Emulators & Text Interfaces** project! 🌟
+
+If you find this curated collection helpful for your daily developer workflow, system administration, or command-line productivity:
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and contribute** your favorite terminal tools, emulators, and TUI applications.
+- 📢 **Share** with friends, colleagues, and developer communities.
+- ☕ **Buy a coffee & sponsor**: Support ongoing research, updates, and ecosystem maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.com/svg?repos=ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces&type=date&legend=top-left)](https://star-history.com/#ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces&type=date&legend=top-left)
 
 ---
 
