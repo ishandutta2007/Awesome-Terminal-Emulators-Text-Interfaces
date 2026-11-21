@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <!-- Neon Glow Gradient -->
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <!-- Terminal Window Gradient -->
+    <linearGradient id="winGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="neonBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .cursor-blink {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .grid-line {
+      stroke: #334155;
+      stroke-opacity: 0.25;
+      stroke-dasharray: 4 4;
+    }
+    .wave-pulse {
+      animation: pulse 6s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.15; transform: translateY(0px); }
+      100% { opacity: 0.35; transform: translateY(-8px); }
+    }
+    .tag-pill {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .code-text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+  </style>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <!-- Matrix / Cyber Grid Pattern in Background -->
+  <g class="wave-pulse">
+    <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200 M0 300 H1200" class="grid-line" stroke-width="1"/>
+    <path d="M100 0 V360 M250 0 V360 M400 0 V360 M550 0 V360 M700 0 V360 M850 0 V360 M1000 0 V360 M1150 0 V360" class="grid-line" stroke-width="1"/>
+    <!-- Flowing Aurora Wave under Terminal -->
+    <path d="M -50 290 Q 250 200 550 270 T 1250 230 L 1250 360 L -50 360 Z" fill="#38bdf8" fill-opacity="0.05"/>
+    <path d="M -50 320 Q 350 230 750 310 T 1250 270 L 1250 360 L -50 360 Z" fill="#818cf8" fill-opacity="0.04"/>
+  </g>
+
+  <!-- Ambient Ambient Glows -->
+  <circle cx="950" cy="80" r="140" fill="#38bdf8" fill-opacity="0.08" filter="url(#subtleGlow)"/>
+  <circle cx="200" cy="280" r="160" fill="#818cf8" fill-opacity="0.08" filter="url(#subtleGlow)"/>
+
+  <!-- Foreground Content Group -->
+  <g transform="translate(60, 45)">
+    <!-- Terminal Emulation Icon & Category Badge -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="165" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <circle cx="16" cy="14" r="5" fill="#34d399"/>
+      <text x="30" y="18" fill="#94a3b8" class="tag-pill">GPU &amp; TUI ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="78" fill="#ffffff" class="title-text" font-size="34">
+      Awesome Terminal Emulators
+    </text>
+    <text x="0" y="122" fill="url(#neonGlow)" class="title-text" font-size="34" filter="url(#subtleGlow)">
+      &amp; Text Interfaces (TUI)
+    </text>
+
+    <!-- Subtitle / Value Proposition -->
+    <text x="0" y="162" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14.5" font-weight="400">
+      The definitive curated catalog of high-performance GPU terminals, modern TUI applications,
+    </text>
+    <text x="0" y="184" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14.5" font-weight="400">
+      multiplexers, and cross-platform command-line development environments.
+    </text>
+
+    <!-- Tech Feature Badges (Pills) -->
+    <g transform="translate(0, 220)">
+      <!-- Rust / Zig GPU -->
+      <rect x="0" y="0" width="128" height="26" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="14" y="17" fill="#38bdf8" class="tag-pill">⚡ GPU Accelerated</text>
+
+      <!-- Kitty & Sixel -->
+      <rect x="140" y="0" width="120" height="26" rx="6" fill="#1e293b" stroke="#818cf8" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="154" y="17" fill="#818cf8" class="tag-pill">🎨 Kitty &amp; Sixel</text>
+
+      <!-- Ratatui / Bubble Tea -->
+      <rect x="272" y="0" width="126" height="26" rx="6" fill="#1e293b" stroke="#34d399" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="286" y="17" fill="#34d399" class="tag-pill">🖥️ Rich TUI Apps</text>
+
+      <!-- Multiplexing -->
+      <rect x="410" y="0" width="116" height="26" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="424" y="17" fill="#f59e0b" class="tag-pill">🔀 Multiplexers</text>
+    </g>
+  </g>
+
+  <!-- Animated Interactive Terminal Card (Right Pane) -->
+  <g transform="translate(680, 42)">
+    <!-- Terminal Window Container -->
+    <rect width="460" height="270" rx="12" fill="url(#winGrad)" stroke="#334155" stroke-width="1.5" filter="url(#subtleGlow)"/>
+
+    <!-- Window Header -->
+    <path d="M 0 12 Q 0 0 12 0 L 448 0 Q 460 0 460 12 L 460 38 L 0 38 Z" fill="#0f172a"/>
+    <line x1="0" y1="38" x2="460" y2="38" stroke="#1e293b" stroke-width="1.5"/>
+
+    <!-- Window Controls -->
+    <circle cx="22" cy="19" r="6" fill="#ef4444"/>
+    <circle cx="42" cy="19" r="6" fill="#f59e0b"/>
+    <circle cx="62" cy="19" r="6" fill="#10b981"/>
+
+    <!-- Tab Title -->
+    <text x="230" y="24" fill="#64748b" text-anchor="middle" class="tag-pill">zsh — 100×42 (OpenGL / Metal)</text>
+
+    <!-- Terminal Code Body -->
+    <g transform="translate(24, 68)" class="code-text" font-size="12.5">
+      <!-- Line 1: Command -->
+      <text x="0" y="0" fill="#34d399" font-weight="700">❯</text>
+      <text x="18" y="0" fill="#38bdf8">starship</text>
+      <text x="82" y="0" fill="#e2e8f0">init zsh | source</text>
+
+      <!-- Line 2: Shell Prompt -->
+      <text x="0" y="26" fill="#818cf8" font-weight="700">~/terminal-dev</text>
+      <text x="114" y="26" fill="#94a3b8">on</text>
+      <text x="136" y="26" fill="#f43f5e"> main</text>
+      <text x="194" y="26" fill="#fbbf24">[⚡ 240 FPS]</text>
+
+      <!-- Line 3: Benchmark invocation -->
+      <text x="0" y="52" fill="#34d399" font-weight="700">❯</text>
+      <text x="18" y="52" fill="#e2e8f0">bench --renderer=gpu --tui=ratatui</text>
+
+      <!-- Line 4 & 5: Mock ASCII benchmark / stats table -->
+      <text x="0" y="80" fill="#64748b">┌───────────────┬────────────┬────────────┐</text>
+      <text x="0" y="100" fill="#64748b">│</text>
+      <text x="12" y="100" fill="#e2e8f0">Component      </text>
+      <text x="120" y="100" fill="#64748b">│</text>
+      <text x="130" y="100" fill="#38bdf8">Latency     </text>
+      <text x="226" y="100" fill="#64748b">│</text>
+      <text x="236" y="100" fill="#34d399">Framerate   </text>
+      <text x="342" y="100" fill="#64748b">│</text>
+      <text x="0" y="120" fill="#64748b">├───────────────┼────────────┼────────────┤</text>
+      <text x="0" y="140" fill="#64748b">│</text>
+      <text x="12" y="140" fill="#cbd5e1">Ghostty / Rust </text>
+      <text x="120" y="140" fill="#64748b">│</text>
+      <text x="130" y="140" fill="#a7f3d0">1.2ms       </text>
+      <text x="226" y="140" fill="#64748b">│</text>
+      <text x="236" y="140" fill="#6ee7b7">240 Hz Sync </text>
+      <text x="342" y="140" fill="#64748b">│</text>
+      <text x="0" y="160" fill="#64748b">└───────────────┴────────────┴────────────┘</text>
+
+      <!-- Active Prompt with Blinking Cursor -->
+      <text x="0" y="188" fill="#34d399" font-weight="700">❯</text>
+      <text x="18" y="188" fill="#e2e8f0">ready for input</text>
+      <rect x="135" y="174" width="8" height="16" fill="#38bdf8" class="cursor-blink"/>
+    </g>
+  </g>
+</svg>

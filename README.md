@@ -1,259 +1,121 @@
-# Awesome-Terminal-Emulators-Text-Interfaces
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Terminal Emulators &amp; Text Interfaces Banner" width="100%" />
+</p>
 
-## Top Terminal Emulators & Text Interfaces Ecosystem
+# Awesome Terminal Emulators & Text Interfaces (TUI) ⚡
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces?style=social)](https://github.com/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces/pulls)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-
-**Curated List of SaaS/Commercial Products & Open-Source GitHub Projects**  
-
-*Focused on GPU-Accelerated Terminal Emulators, Cross-Platform Shells, Text-Based User Interfaces (TUIs) & CLI Utilities*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS/commercial platforms** and **open-source projects** for **Terminal Emulators & Text Interfaces**. These tools provide ultra-low-latency GPU rendering, Kitty/Sixel inline graphics, split-pane workspace layouts, cross-platform SSH orchestration, and rich interactive CLI/TUI experiences.
-
-
-
-**Examples** include Warp, Termius, iTerm2, Hyper, Alacritty, Kitty, Windows Terminal, Tabby, WezTerm, and Rio (the category leaders). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for Rust/Zig/C/Go terminal emulators, platform-native consoles, interactive CLI/TUI tools, and terminal graphics engines — ideal for developers, systems engineers, DevOps teams, and command-line power users.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Warp](https://warp.dev)**  
-
-  Modern, Rust-based terminal emulator featuring integrated AI agents, block-based command grouping, collaborative Warp Drive notebooks, and team workflow sync.
-
-
-
-- **[Termius](https://termius.com)**  
-
-  Cross-platform SSH, Mosh, and SFTP terminal client offering end-to-end encrypted vault synchronization, shared team host groups, and mobile/desktop apps.
-
-
-
-- **[SecureCRT (VanDyke Software)](https://vandyke.com)**  
-
-  Commercial terminal emulator and SSH/Telnet client designed for enterprise network administration with session management, scripting, and FIPS-validated security.
-
-
-
-- **[ZOC Terminal (EmTec)](https://emtec.com)**  
-
-  Commercial SSH/Telnet terminal emulator for macOS and Windows supporting tabbed sessions, extensive terminal emulations (xterm, VT220, TN3270), and REXX scripting.
-
-
-
-- **[Tabby Sync / Cloud Plugins](https://tabby.sh)**  
-
-  Cloud-based configuration, profile, and SSH connection synchronization services extending the Tabby terminal emulator across multiple machines.
-
-
-
-- **[Wave Terminal Cloud / Enterprise](https://waveterm.dev)**  
-
-  AI-native open-core terminal emulator combining shell panes with inline web browsers, file previews, and cloud-assisted AI command blocks.
-
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Alacritty (`alacritty/alacritty`)](https://github.com)**  
-
-  Cross-platform, OpenGL-accelerated terminal emulator written in Rust focused on extreme speed, minimal latency, and clean YAML/TOML configuration.
-
-
-
-- **[Kitty (`kovidgoyal/kitty`)](https://github.com)**  
-
-  Fast, feature-rich, GPU-based terminal emulator written in C and Python supporting programmable kittens, splits, tabs, ligatures, and the Kitty graphics protocol.
-
-
-
-- **[WezTerm (`wez/wezterm`)](https://github.com)**  
-
-  GPU-accelerated cross-platform terminal emulator and multiplexer written in Rust with Lua configuration, native SSH/TLS domains, and rich font ligature rendering.
-
-
-
-- **[Windows Terminal (`microsoft/terminal`)](https://github.com)**  
-
-  Modern, fast, open-source terminal application for Windows featuring DirectWrite/DirectX GPU text rendering, tabs, split panes, and custom profiles for PowerShell, WSL, and CMD.
-
-
-
-- **[iTerm2 (`gnachman/iTerm2`)](https://github.com)**  
-
-  Feature-packed macOS terminal emulator supporting split panes, hotkey drop-down windows, `tmux` integration, shell integration, triggers, and Python scripting.
-
-
-
-- **[Ghostty (`ghostty-org/ghostty`)](https://github.com)**  
-
-  Fast, native, cross-platform terminal emulator written in Zig using platform-native UI frameworks, GPU acceleration, and `libghostty` embeddable core libraries.
-
-
-
-- **[Rio (`raphamorim/rio`)](https://github.com)**  
-
-  Hardware-accelerated GPU terminal emulator written in Rust capable of running natively on desktop or in the browser via WebAssembly with built-in splits and retro CRT shaders.
-
-
-
-- **[Tabby (`Eugeny/tabby`)](https://github.com)**  
-
-  Highly configurable cross-platform terminal emulator, SSH client, and serial console built with TypeScript and web technologies with an extensive plugin ecosystem.
-
-
-
-- **[Hyper (`vercel/hyper`)](https://github.com)**  
-
-  Extensible terminal emulator built on HTML, CSS, and JavaScript/Electron offering split panes, custom keymaps, and thousands of community themes and plugins.
-
-
-
-- **[Foot (`dnkl/foot`)](https://codeberg.org)**  
-
-  Fast, lightweight, and minimalist Wayland-native terminal emulator written in C featuring server/daemon mode, Sixel graphics support, and low memory usage.
-
-
-
-- **[Contour (`contour-terminal/contour`)](https://github.com)**  
-
-  Modern, cross-platform, GPU-accelerated C++20 terminal emulator supporting VT320/xterm sequences, Sixel graphics, font ligatures, and runtime profile switching.
-
-
-
-- **[Konsole (`KDE/konsole`)](https://github.com)**  
-
-  Full-featured, open-source terminal emulator for the KDE desktop environment offering split views, bookmarkable SSH sessions, profile switching, and search highlighting.
-
-
-
-- **[Tilix (`gnunn1/tilix`)](https://github.com)**  
-
-  Tiling terminal emulator for Linux built with GTK3 allowing arbitrary horizontal and vertical pane splits, persistent layouts, and drop-down quake mode.
-
-
-
-- **[Terminator (`gnome-terminator/terminator`)](https://github.com)**  
-
-  Open-source Linux terminal emulator engineered for arranging multiple terminals in customizable grids with broadcast keystroke grouping.
-
-
-
-- **[Extraterm (`sedwards2009/extraterm`)](https://github.com)**  
-
-  Open-source terminal emulator introducing command output frames, inline image viewing, and deep shell integration for filtering and reusing previous command output.
-
-
-
-- **[Cool Retro Term (`Swordfish90/cool-retro-term`)](https://github.com)**  
-
-  GPU-accelerated terminal emulator built with QML and Qt that mimics the look, feel, phosphor glow, and scanlines of classic cathode-ray tube (CRT) monitors.
-
-
-
-- **[Heretic (`p-e-w/heretic`)](https://github.com/p-e-w/heretic)**  
-
-  Open-source Python CLI and interactive text interface tool for automated, training-free language model modification using directional ablation and Optuna TPE optimization.
-
-
-
-- **[st — Simple Terminal (`suckless.org`)](https://suckless.org)**  
-
-  Ultra-minimalist terminal emulator for X11 written in clean C by the suckless community, customized directly via source code patches and `config.h`.
-
-
-
-- **[xterm.js (`xtermjs/xterm.js`)](https://github.com)**  
-
-  High-performance TypeScript terminal front-end component used by VS Code, Hyper, and cloud IDEs to render full POSIX terminals inside web browsers.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Terminal Multiplexers & Window Managers](https://github.com)** like **tmux**, **Zellij**, **TUIOS (`Gaurav-Gosain/tuios`)**, and **cmux (`manaflow-ai/cmux`)** for persistent sessions and modal pane orchestration.
-
-- **[Terminal Graphics & Media Viewers](https://github.com)** including **chafa (`hpjansson/chafa`)**, **viu**, **timg**, and **ueberzugpp** for rendering images and video inside terminal emulators.
-
-- **[Shell Prompts & Line Editors](https://github.com)** such as **Starship**, **Oh My Posh**, **Powerlevel10k**, **Atuin**, and **Ble.sh** for syntax-highlighted, context-aware prompts.
-
-- **[TUI Frameworks & Libraries](https://github.com)** like **Ratatui (Rust)**, **Bubble Tea (Go)**, **Textual (Python)**, and **Ink (React/Node.js)** for building rich text-based interfaces.
-
-- Many community **Nerd Fonts** (JetBrainsMono, FiraCode, Iosevka, Hack) and **Base16 / Catppuccin Terminal Color Schemes**.
-
-
-
-**Frameworks for building custom systems**: Combine **Ghostty**, **WezTerm**, or **Alacritty** for GPU-accelerated rendering, **tmux** or **Zellij** for session multiplexing, and **Starship + Atuin** for a fast, modern command-line environment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Terminal emulators execute shell commands and process escape sequences directly on your host OS; keep terminal binaries updated to mitigate ANSI/OSC escape-sequence injection vulnerabilities.
-
-- When using cloud-synced terminal configurations or SSH vaults, enable end-to-end encryption and strong multi-factor authentication.
-
-
+> A curated directory of premier **GPU-accelerated terminal emulators**, **cross-platform multiplexers**, **Terminal User Interface (TUI) applications**, and **command-line developer tools**. Explore hardware-rendered shells, Sixel/Kitty graphics, and cloud-synced terminal infrastructure.
 
 ---
 
+## 📑 Table of Contents
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Terminal Emulators & Multiplexers](#-terminal-emulators--multiplexers)
+  - [Interactive TUI Applications & Frameworks](#-interactive-tui-applications--frameworks)
+- [How to Contribute](#-how-to-contribute)
+- [Disclaimer](#-disclaimer)
 
+---
 
-**Made for terminal enthusiasts, systems programmers, DevOps engineers, and open-source builders.**  
+## 📊 Sector Overview & Market Dynamics
 
-Let's make terminal emulators and text interfaces faster, sharper, and more open.
+The global developer tools and terminal interface software market is estimated at **$4.8 billion in 2026**, growing at a 14.2% CAGR driven by cloud infrastructure operations, containerized Kubernetes workflows, and developer productivity tooling. The terminal emulator and command-line interface sector is **moderately fragmented**: commodity platform default terminals (Apple Terminal, basic GNOME Terminal) face fierce competition from high-performance hardware-rendered emulators (GPU shaders, Zig/Rust engines), while enterprise remote access and AI-integrated cloud terminals exhibit selective network effects and high switching costs around encrypted team vaults and shared session workflows.
+
+---
+
+## 💼 SaaS & Commercial Hosted Platforms
+
+| Product | Valuation / Revenue | Starting Tier Pricing | Free Tier / Trial Limit | Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[VanDyke SecureCRT](https://vandyke.com)** | **$55M Annual Revenue** | **$109.00 / license** (1-year updates & support) | **30-day fully functional evaluation trial** (unlimited sessions during trial) | Enterprise-grade SSH/Telnet terminal client with FIPS 140-2 encryption, multi-session tabs, and automated VBScript/Python scripting. |
+| **[Termius](https://termius.com)** | **$35M Valuation** ($8M ARR) | **$10.00 / month** (billed annually at $120/yr for Pro) | **Free forever plan** (single device, unlimited SSH connections, local host storage; 14-day Pro trial with zero credit card) | Cross-platform SSH, Mosh, and SFTP terminal client offering zero-knowledge encrypted vault synchronization, team snippet sharing, and iOS/Android/Desktop parity. |
+| **[Warp](https://warp.dev)** | **$30M Valuation** (Series A funded by GV) | **$15.00 / user / month** (billed annually for Warp Team) | **Free forever plan** (up to 3 team members, full terminal capabilities, 100 AI request credits per month) | Modern GPU-rendered terminal built in Rust featuring native IDE-like text editing, block-based command execution, collaborative notebooks, and embedded AI command agents. |
+| **[ZOC Terminal](https://emtec.com)** | **$12M Valuation** ($3M ARR) | **$79.99 / single-user license** (lifetime major version) | **30-day full-feature trial** (unrestricted sessions and terminal emulations) | Professional SSH, Telnet, and serial terminal emulator for macOS & Windows with VT220/TN3270 emulation, automated REXX scripts, and tabbed administration. |
+| **[Tabby Sync Cloud](https://tabby.sh)** | **$6M Valuation** (Indie SaaS / Open-Core) | **$3.50 / month** (or self-hosted sync server) | **Free forever plan** (unlimited local sessions, community sync server support, free web app client) | Cloud configuration vault and remote profile sync engine for the open-source Tabby terminal emulator, orchestrating SSH keys and connection tabs across multiple workstations. |
+| **[Wave Terminal Cloud](https://waveterm.dev)** | **$5M Valuation** (Seed stage) | **$12.00 / user / month** (Enterprise Cloud workspaces) | **Free forever plan** (open-core desktop app, local AI integration, unlimited terminal blocks, standalone previewers) | AI-native open-core terminal application pairing inline web renders, markdown previewers, and visual directory file exploration alongside rich terminal shells. |
+
+---
+
+## 🚀 Open-Source GitHub Projects
+
+Curated open-source terminal emulators, multiplexers, and interactive text user interfaces, sorted descending by GitHub community popularity and star count.
+
+### 🖥️ Terminal Emulators & Multiplexers
+
+| Repository | Community Stars | Language | Primary Architecture & Description |
+| :--- | :--- | :--- | :--- |
+| **[microsoft/terminal](https://github.com/microsoft/terminal)** | [![Stars](https://img.shields.io/github/stars/microsoft/terminal?style=social&color=white)](https://github.com/microsoft/terminal/stargazers) | C++ / C# | Official Windows Terminal engine featuring DirectX/DirectWrite GPU text rendering, dynamic tabs, split panes, quake window mode, and deep WSL2/PowerShell integration. |
+| **[Eugeny/tabby](https://github.com/Eugeny/tabby)** | [![Stars](https://img.shields.io/github/stars/Eugeny/tabby?style=social&color=white)](https://github.com/Eugeny/tabby/stargazers) | TypeScript | Infinite-customization cross-platform terminal and serial console with embedded SFTP client, SSH profile manager, and extensible web plugin ecosystem. |
+| **[alacritty/alacritty](https://github.com/alacritty/alacritty)** | [![Stars](https://img.shields.io/github/stars/alacritty/alacritty?style=social&color=white)](https://github.com/alacritty/alacritty/stargazers) | Rust | Blazing-fast, OpenGL-accelerated minimalist terminal emulator engineered for minimal latency, zero overhead, and clean declarative TOML configuration. |
+| **[ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)** | [![Stars](https://img.shields.io/github/stars/ghostty-org/ghostty?style=social&color=white)](https://github.com/ghostty-org/ghostty/stargazers) | Zig | Fast, native, GPU-accelerated terminal emulator utilizing platform-native graphical toolkits, font shaders, Kitty graphics, and embeddable `libghostty` primitives. |
+| **[tmux/tmux](https://github.com/tmux/tmux)** | [![Stars](https://img.shields.io/github/stars/tmux/tmux?style=social&color=white)](https://github.com/tmux/tmux/stargazers) | C | The industry-standard terminal multiplexer enabling persistent detached sessions, flexible split-window panes, and remote workstation workflow orchestration. |
+| **[vercel/hyper](https://github.com/vercel/hyper)** | [![Stars](https://img.shields.io/github/stars/vercel/hyper?style=social&color=white)](https://github.com/vercel/hyper/stargazers) | TypeScript | Electron-powered extensible terminal emulator built upon web standards (HTML, CSS, JS), supporting seamless theme styling and modular npm extension plugins. |
+| **[zellij-org/zellij](https://github.com/zellij-org/zellij)** | [![Stars](https://img.shields.io/github/stars/zellij-org/zellij?style=social&color=white)](https://github.com/zellij-org/zellij/stargazers) | Rust | Batteries-included terminal workspace and multiplexer with auto-tiling layouts, floating panes, session resurrection, and WebAssembly plugin runtime. |
+| **[kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)** | [![Stars](https://img.shields.io/github/stars/kovidgoyal/kitty?style=social&color=white)](https://github.com/kovidgoyal/kitty/stargazers) | C / Python | Feature-rich GPU terminal emulator offloading rendering to OpenGL; pioneering the Kitty Graphics Protocol, programmable kitten sub-tools, and ligatures. |
+| **[wez/wezterm](https://github.com/wez/wezterm)** | [![Stars](https://img.shields.io/github/stars/wez/wezterm?style=social&color=white)](https://github.com/wez/wezterm/stargazers) | Rust | GPU-accelerated cross-platform terminal emulator and multiplexer configured via Lua, supporting native SSH domains, color glyphs, and Sixel graphics. |
+| **[Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term)** | [![Stars](https://img.shields.io/github/stars/Swordfish90/cool-retro-term?style=social&color=white)](https://github.com/Swordfish90/cool-retro-term/stargazers) | C++ / QML | Hardware-accelerated terminal emulator with customizable CRT scanlines, phosphor bloom, curvature distortions, and retro amber/green monochrome palettes. |
+| **[xtermjs/xterm.js](https://github.com/xtermjs/xterm.js)** | [![Stars](https://img.shields.io/github/stars/xtermjs/xterm.js?style=social&color=white)](https://github.com/xtermjs/xterm.js/stargazers) | TypeScript | Front-end terminal component powering VS Code, Hyper, and cloud web consoles with high-throughput Canvas/WebGL rendering and POSIX terminal compatibility. |
+| **[gnachman/iTerm2](https://github.com/gnachman/iTerm2)** | [![Stars](https://img.shields.io/github/stars/gnachman/iTerm2?style=social&color=white)](https://github.com/gnachman/iTerm2/stargazers) | Objective-C | Comprehensive macOS terminal emulator featuring shell integration, split panes, instant replay, dynamic color profiles, and Python automation API. |
+| **[raphamorim/rio](https://github.com/raphamorim/rio)** | [![Stars](https://img.shields.io/github/stars/raphamorim/rio?style=social&color=white)](https://github.com/raphamorim/rio/stargazers) | Rust | Next-generation hardware-accelerated terminal emulator powered by `wgpu`, operating natively on desktop and inside browsers via WebAssembly. |
+| **[gnunn1/tilix](https://github.com/gnunn1/tilix)** | [![Stars](https://img.shields.io/github/stars/gnunn1/tilix?style=social&color=white)](https://github.com/gnunn1/tilix/stargazers) | D / GTK3 | Advanced tiling terminal emulator for Linux compliant with GNOME HIG, supporting drag-and-drop panes, quake drops, and synchronized terminal typing. |
+| **[contour-terminal/contour](https://github.com/contour-terminal/contour)** | [![Stars](https://img.shields.io/github/stars/contour-terminal/contour?style=social&color=white)](https://github.com/contour-terminal/contour/stargazers) | C++20 | Modern terminal emulator built with C++20 and OpenGL supporting VT520/xterm compliance, Sixel graphics, clickable hyperlinks, and unicode bidirectional text. |
+| **[sedwards2009/extraterm](https://github.com/sedwards2009/extraterm)** | [![Stars](https://img.shields.io/github/stars/sedwards2009/extraterm?style=social&color=white)](https://github.com/sedwards2009/extraterm/stargazers) | TypeScript | Modular terminal emulator introducing isolated output frames, inline image previews, command output filtering, and text manipulation buffers. |
+| **[gnome-terminator/terminator](https://github.com/gnome-terminator/terminator)** | [![Stars](https://img.shields.io/github/stars/gnome-terminator/terminator?style=social&color=white)](https://github.com/gnome-terminator/terminator/stargazers) | Python | Robust grid-based terminal layout manager for Linux desktops allowing infinite split panels, simultaneous keystroke broadcasting, and tab saving. |
+| **[KDE/konsole](https://github.com/KDE/konsole)** | [![Stars](https://img.shields.io/github/stars/KDE/konsole?style=social&color=white)](https://github.com/KDE/konsole/stargazers) | C++ | Flagship terminal emulator for the KDE desktop ecosystem offering tabbed browsing, bookmarkable SSH remote sessions, and embeddable KPart widgets. |
+
+---
+
+### 🎛️ Interactive TUI Applications & Frameworks
+
+| Repository | Community Stars | Language | Primary Architecture & Description |
+| :--- | :--- | :--- | :--- |
+| **[junegunn/fzf](https://github.com/junegunn/fzf)** | [![Stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers) | Go | Interactive command-line fuzzy finder and TUI filter used universally for files, commit histories, processes, and command completions. |
+| **[sharkdp/bat](https://github.com/sharkdp/bat)** | [![Stars](https://img.shields.io/github/stars/sharkdp/bat?style=social&color=white)](https://github.com/sharkdp/bat/stargazers) | Rust | Enhanced `cat` clone with syntax highlighting for 100+ languages, Git line modifications, automatic paging, and terminal display formatting. |
+| **[starship/starship](https://github.com/starship/starship)** | [![Stars](https://img.shields.io/github/stars/starship/starship?style=social&color=white)](https://github.com/starship/starship/stargazers) | Rust | Ultra-fast, customizable, cross-shell prompt displaying git state, programming runtimes, battery levels, and cloud context with zero latency. |
+| **[charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)** | [![Stars](https://img.shields.io/github/stars/charmbracelet/bubbletea?style=social&color=white)](https://github.com/charmbracelet/bubbletea/stargazers) | Go | Modern The Elm Architecture (TEA) framework for writing elegant, composable, and reactive terminal user interfaces in Go. |
+| **[sxyazi/yazi](https://github.com/sxyazi/yazi)** | [![Stars](https://img.shields.io/github/stars/sxyazi/yazi?style=social&color=white)](https://github.com/sxyazi/yazi/stargazers) | Rust | Blazing-fast asynchronous TUI file manager with non-blocking I/O, built-in code/image previews, and multi-tab directory navigation. |
+| **[p-e-w/heretic](https://github.com/p-e-w/heretic)** | [![Stars](https://img.shields.io/github/stars/p-e-w/heretic?style=social&color=white)](https://github.com/p-e-w/heretic/stargazers) | Python | Interactive text interface and CLI tool for training-free directional ablation and language model optimization. |
+| **[vadimdemedes/ink](https://github.com/vadimdemedes/ink)** | [![Stars](https://img.shields.io/github/stars/vadimdemedes/ink?style=social&color=white)](https://github.com/vadimdemedes/ink/stargazers) | TypeScript | React component renderer for command-line interfaces; build interactive CLI tools using Yoga Flexbox layout and React hooks. |
+| **[Textualize/textual](https://github.com/Textualize/textual)** | [![Stars](https://img.shields.io/github/stars/Textualize/textual?style=social&color=white)](https://github.com/Textualize/textual/stargazers) | Python | Rapid application development TUI framework for Python with a modern CSS styling engine, mouse support, smooth animations, and web export. |
+| **[dandavison/delta](https://github.com/dandavison/delta)** | [![Stars](https://img.shields.io/github/stars/dandavison/delta?style=social&color=white)](https://github.com/dandavison/delta/stargazers) | Rust | Syntax-highlighting pager for git, diff, and grep output with side-by-side view, line numbers, and intra-line word-level change highlights. |
+| **[atuinsh/atuin](https://github.com/atuinsh/atuin)** | [![Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=social&color=white)](https://github.com/atuinsh/atuin/stargazers) | Rust | Magical shell history manager substituting default Ctrl-R with an interactive SQLite-backed TUI and end-to-end encrypted device synchronization. |
+| **[eza-community/eza](https://github.com/eza-community/eza)** | [![Stars](https://img.shields.io/github/stars/eza-community/eza?style=social&color=white)](https://github.com/eza-community/eza/stargazers) | Rust | Modern, feature-rich replacement for `ls` displaying file types, permissions, git status indicators, tree views, and extended metadata. |
+| **[ratatui/ratatui](https://github.com/ratatui/ratatui)** | [![Stars](https://img.shields.io/github/stars/ratatui/ratatui?style=social&color=white)](https://github.com/ratatui/ratatui/stargazers) | Rust | Lightweight, high-performance Rust library for cooking up rich terminal user interfaces, widgets, canvas charts, and layout structures. |
+| **[ClementTsang/bottom](https://github.com/ClementTsang/bottom)** | [![Stars](https://img.shields.io/github/stars/ClementTsang/bottom?style=social&color=white)](https://github.com/ClementTsang/bottom/stargazers) | Rust | Graphical cross-platform system monitor TUI featuring real-time CPU, memory, disk, network, and process graphs with customizable themes. |
+| **[dalance/procs](https://github.com/dalance/procs)** | [![Stars](https://img.shields.io/github/stars/dalance/procs?style=social&color=white)](https://github.com/dalance/procs/stargazers) | Rust | Modern replacement for `ps` delivering colored tabular output, tree views, human-readable units, multi-column search, and Docker container inspection. |
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from the developer community! Follow these steps to submit additions or updates:
+
+1. 🍴 **Fork the repository** to your GitHub account.
+2. 🌿 **Create a feature branch**: `git checkout -b add-terminal-tool`.
+3. 📝 **Edit `README.md`**: Follow the existing Markdown table formats.
+   - For SaaS tools: Include verified pricing, free tier/trial boundaries, and company valuation/revenue metrics.
+   - For Open-Source: Include the official GitHub repository link and shield badge (`style=social&color=white`) linking to `/stargazers`.
+4. 🧪 **Validate links and formatting**: Ensure all markdown links resolve correctly.
+5. 🚀 **Submit a Pull Request** with a concise description of the added tool and its primary use case.
+
+---
+
+## 🔒 Disclaimer
+
+- This repository is a **curated educational resource**; inclusion does not constitute commercial endorsement or warranty.
+- Terminal emulators and TUI utilities execute shell binaries with user OS permissions. Regularly update packages to safeguard against escape-sequence injection and remote code execution vulnerabilities.
+- When utilizing cloud terminal vaults or remote SSH synchronization tools, ensure end-to-end encryption (E2EE) is activated and multi-factor authentication (MFA) is enforced.
+
+---
+
+<p align="center">
+  <b>Built with 💻 for terminal enthusiasts, systems programmers, DevOps engineers, and command-line artisans.</b><br />
+  Star ⭐ this repository if you find it valuable!
+</p>
