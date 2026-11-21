@@ -6,7 +6,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF88Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces?style=social)](https://github.com/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces?style=social)](https://github.com/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Terminal-Emulators-Text-Interfaces/pulls)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -49,11 +49,11 @@ The global developer tools and terminal interface software market is estimated a
 
 ## 🚀 Open-Source GitHub Projects
 
-Curated open-source terminal emulators, multiplexers, and interactive text user interfaces, sorted descending by GitHub community popularity and star count.
+Curated open-source terminal emulators, multiplexers, and interactive text user interfaces, sorted descending by GitHub community popularity and Stars_Count.
 
 ### 🖥️ Terminal Emulators & Multiplexers
 
-| Repository | Community Stars | Language | Primary Architecture & Description |
+| Repository | Community GitHub_Stars | Language | Primary Architecture & Description |
 | :--- | :--- | :--- | :--- |
 | **[microsoft/terminal](https://github.com/microsoft/terminal)** | [![Stars](https://img.shields.io/github/stars/microsoft/terminal?style=social&color=white)](https://github.com/microsoft/terminal/stargazers) | C++ / C# | Official Windows Terminal engine featuring DirectX/DirectWrite GPU text rendering, dynamic tabs, split panes, quake window mode, and deep WSL2/PowerShell integration. |
 | **[Eugeny/tabby](https://github.com/Eugeny/tabby)** | [![Stars](https://img.shields.io/github/stars/Eugeny/tabby?style=social&color=white)](https://github.com/Eugeny/tabby/stargazers) | TypeScript | Infinite-customization cross-platform terminal and serial console with embedded SFTP client, SSH profile manager, and extensible web plugin ecosystem. |
@@ -78,7 +78,7 @@ Curated open-source terminal emulators, multiplexers, and interactive text user 
 
 ### 🎛️ Interactive TUI Applications & Frameworks
 
-| Repository | Community Stars | Language | Primary Architecture & Description |
+| Repository | Community GitHub_Stars | Language | Primary Architecture & Description |
 | :--- | :--- | :--- | :--- |
 | **[junegunn/fzf](https://github.com/junegunn/fzf)** | [![Stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers) | Go | Interactive command-line fuzzy finder and TUI filter used universally for files, commit histories, processes, and command completions. |
 | **[sharkdp/bat](https://github.com/sharkdp/bat)** | [![Stars](https://img.shields.io/github/stars/sharkdp/bat?style=social&color=white)](https://github.com/sharkdp/bat/stargazers) | Rust | Enhanced `cat` clone with syntax highlighting for 100+ languages, Git line modifications, automatic paging, and terminal display formatting. |
